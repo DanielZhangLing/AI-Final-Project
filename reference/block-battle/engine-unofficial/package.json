@@ -1,0 +1,23 @@
+{
+  "name": "aecs-tetris-engine",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "appjs": "^0.0.19",
+    "electron-prebuilt": "^0.34.0",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "readline": "^1.1.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-babel": "^5.0.3",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-watch": "^0.6.1"
+  },
+  "scripts": {},
+  "author": "",
+  "license": "ISC"
+}

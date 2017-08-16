@@ -1,0 +1,61 @@
+body {
+	background-color: darkblue;
+	background-image: url("./img/background-blockbattle.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+.player {
+	position: relative;
+}
+
+.player > img {
+	position: absolute;
+	width: 60px;
+	height: 140px;
+
+	border: 15px solid #008cd1;
+	border-right: none;
+	background-color: black;
+}
+
+.player > canvas {
+	position: absolute;
+	left: 75px;
+
+	border: 15px outset #008cd1;
+}
+
+.player > .stats {
+	position: relative;
+
+	top: 200px;
+	width: 75px;
+}
+
+.player > .stats > .stat {
+	margin-bottom: 1em;
+	width: 75px;
+	text-align: center;
+}
+
+#rounds {
+	position: absolute;
+	top: 10px;
+	left: 350px;
+	width: 100px;
+	height: 50px;
+}
+
+#debugTextArea {
+	position: absolute;
+	top: 0px;
+	left: 500px;
+
+	height: 400px;
+
+	overflow-y: scroll;
+
+	font-family: monospace;
+}
